@@ -7,4 +7,6 @@ object.__proto__.getkeys = function() {
     return Object.keys(this);
 };
 
+getkeys(student);
+
 console.log(student.getkeys());
